@@ -1,0 +1,40 @@
+.main-item {
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.main-item h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.single .main-item h2 {
+    margin-top: 40px;
+}
+.line_1, .line_2, .line_3 {
+    display: block;
+    height: 1px;
+    background: #dbdbdb;
+    position: relative;
+}
+.line_1 {
+    width: 200px;
+    margin-top: 5px;
+}
+.line_2 {
+    width: 150px;
+    margin-top: 5px;
+}
+.line_3 {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.single p {
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+}
+.main-block .item .item-header h3 {
+    float: none;
+    text-align: center;
+}

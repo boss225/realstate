@@ -25,6 +25,9 @@ function real_state_theme_setup() {
                   'gallery'
           )
     );
+
+    // Add menus in Admin
+	register_nav_menu('primary-menu', __('Primary Menu', 'vinhnguyen') );
 }
 
 add_action ('init','real_state_theme_setup');
